@@ -22,31 +22,16 @@ Ensure you have the following installed on your machine:
 
 To set up the environment, follow the steps below:
 
-1. Clone the repository (if applicable):
+1. Install the necessary Python packages:
 
-    ```bash
-    git clone <your-repository-url>
-    cd <your-project-directory>
-    ```
+langchain==0.0.168
+langchain-community==0.0.3
+langchain-ollama==0.0.5
+langchain-text-splitters==0.0.6
+langchain-core==0.0.9
+slack-sdk==3.19.1
+flask==2.2.2
 
-2. Create and activate a Python virtual environment (optional but recommended):
-
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows use: venv\Scripts\activate
-    ```
-
-3. Install the necessary Python packages:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-    If you do not have a `requirements.txt` file, you can manually install the dependencies:
-
-    ```bash
-    pip install langchain langchain_community langchain_ollama langchain_text_splitters langchain_core flask
-    ```
 
 ## Setting Up the Project
 
